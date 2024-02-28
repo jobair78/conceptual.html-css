@@ -1,3 +1,57 @@
-h1{
-    background-color: brown;
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.hero{
+    background-image: url('../images/cow.jpg');
+    background-position: bottom center;
+    background-size: cover;
+    height: 100vh;
+}
+.hero h1{
+    color: azure;
+    font-size: 100px;
+    font-weight: 800px;
+    text-align: center;
+    font-family: cursive;
+    padding-top: 20px;
+    word-spacing: 40px;
+    letter-spacing: 40px;
+    margin: 50px;
+    
+}
+.article ,#cow-type{
+    width: 80%;
+    /* margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 60px; */
+    margin: 60px auto;
+    background-color: rgb(40, 232, 232);
+    padding: 60px;
+    border-width: 15px;
+    border-color: yellow;
+    border-style: groove;
+  
+}
+.article h2{
+    text-align: center;
+    font-size: 50px;
+    border-bottom: 2px;
+    border-color: yellow;
+    border-style: groove;
+    border-width: 2px;
+    border-right: 0;
+    border-left:0;
+    border-top: 0;
+    padding-bottom: 30px;
+    margin-bottom:60px;
+}
+.article p{
+    font-size: 28px;
+    line-height: 2em;
+}
+.article p .imp{
+    font-size: 2em;
 }
